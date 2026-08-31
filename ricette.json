@@ -1,7 +1,7 @@
 [
   {
     "Gruppo": 0,
-    "Nome": "Pancake alla mela ",
+    "Nome": "Pancake alla mela",
     "Tempo": "10",
     "Difficolta": "",
     "Ingredienti_Display": "70 gr farina di mandorle; 4 uova; 1 mela (grattugiata e ben strizzata); mezza bustina di cremor tartaro; un cucchiaio scorza grattugiata di limone;",
@@ -19,7 +19,7 @@
   },
   {
     "Gruppo": 0,
-    "Nome": " Datteciocco",
+    "Nome": "Datteciocco",
     "Tempo": "35-40",
     "Difficolta": "",
     "Ingredienti_Display": "350 gr nocciole; 200 gr datteri Medjoul snocciolati; 5 uova; 2 tazzine di caffè di cicoria; 50 gr di cioccolato fondente",
@@ -182,27 +182,27 @@
   {
     "Gruppo": 0,
     "Nome": "Agnello con patate dolci al cartoccio",
-    "Tempo": "95",
+    "Tempo": 95,
     "Difficolta": "",
-    "Ingredienti_Display": "300 gr di agnello (spalla o cosciotto a pezzi); 150 gr di patate bianche dolci (1 patata grande); cipolla; 1 spicchio d'aglio; 1 cucchiaio di succo di limone; Olio extravergine d’oliva q; b; Origano secco q; b; 1 rametto di rosmarino; Sale marino integrale q; b; Carta da forno e foglio d'alluminio (per la chiusura a cartoccio)",
-    "Ingredienti_Matching": "Agnello, Patate Dolci Bianche",
+    "Ingredienti_Display": "300 gr di agnello (spalla o cosciotto a pezzi); 150 gr di patate bianche dolci (1 patata grande);  cipolla; 1 spicchio d'aglio; 1 cucchiaio di succo di limone; Olio extravergine d’oliva q.b.\nOrigano secco q.b. 1 rametto di rosmarino; Sale marino integrale q.b. Carta da forno e foglio d'alluminio (per la chiusura a cartoccio)",
+    "Ingredienti_Matching": "Agnello, Patate dolci bianche",
     "Preparazione": "Disporre i pezzi di agnello all'interno di una ciotola capiente e condirli con un filo d'olio extravergine d'oliva, il succo di limone, lo spicchio d'aglio schiacciato, una generosa spolverata di origano e un pizzico di sale marino integrale, massaggiando accuratamente la carne con le mani per distribuire bene la marinatura.\nMentre la carne insaporisce, pelare la patata, tagliarla a tocchetti di medie dimensioni e lasciarla in ammollo in acqua fredda; pelare la cipolla e ridurla a fette spesse di circa due centimetri.\nScolare e asciugare i pezzi di patata, quindi unirli alla ciotola con l'agnello insieme alla cipolla affettata e al rametto di rosmarino. Aggiungere un ulteriore giro d'olio e mescolare con cura tutti gli ingredienti per uniformare i condimenti.\nStendere su una teglia un foglio di alluminio sufficientemente capiente e adagiarvi sopra un foglio di carta da forno delle stesse dimensioni. Versare al centro tutto il contenuto della ciotola, compresi i succhi della marinatura, e sigillare ermeticamente i fogli formando un cartoccio ben chiuso per trattenere l'umidità e i profumi durante la cottura.\nTrasferire la teglia in forno statico preriscaldato a 170–180 °C e far cuocere il cartoccio per circa 50–60 minuti. Trascorso questo tempo, aprire delicatamente la parte superiore del cartoccio facendo attenzione al vapore accumulato, alzare la temperatura del forno a 200 °C e proseguire la cottura per ulteriori 10–15 minuti in modo da far dorare e rosolare leggermente la carne e le patate in superficie. Controllare la cottura "
   },
   {
     "Gruppo": "B",
     "Nome": "Agnello con patate al cartoccio",
-    "Tempo": "95",
+    "Tempo": 95,
     "Difficolta": "",
-    "Ingredienti_Display": "300 gr di agnello (spalla o cosciotto a pezzi); 150 gr di patate bianche o gialle (1 patata grande); cipolla; 1 spicchio d'aglio; 1 cucchiaio di succo di limone; Olio extravergine d’oliva q; b; Origano secco q; b; 1 rametto di rosmarino; Sale marino integrale q; b; Carta da forno e foglio d'alluminio (per la chiusura a cartoccio)",
-    "Ingredienti_Matching": "Agnello, Patate Bianche, Patate Gialle",
+    "Ingredienti_Display": "300 gr di agnello (spalla o cosciotto a pezzi); 150 gr di patate bianche o gialle (1 patata grande);  cipolla; 1 spicchio d'aglio; 1 cucchiaio di succo di limone; Olio extravergine d’oliva q.b.\nOrigano secco q.b. 1 rametto di rosmarino; Sale marino integrale q.b. Carta da forno e foglio d'alluminio (per la chiusura a cartoccio)",
+    "Ingredienti_Matching": "Agnello, Patate bianche, Patate gialle",
     "Preparazione": "Disporre i pezzi di agnello all'interno di una ciotola capiente e condirli con un filo d'olio extravergine d'oliva, il succo di limone, lo spicchio d'aglio schiacciato, una generosa spolverata di origano e un pizzico di sale marino integrale, massaggiando accuratamente la carne con le mani per distribuire bene la marinatura.\nMentre la carne insaporisce, pelare le patate, tagliarla a tocchetti di medie dimensioni e lasciarla in ammollo in acqua fredda; pelare la cipolla e ridurla a fette spesse di circa due centimetri.\nScolare e asciugare i pezzi di patata, quindi unirli alla ciotola con l'agnello insieme alla cipolla affettata e al rametto di rosmarino. Aggiungere un ulteriore giro d'olio e mescolare con cura tutti gli ingredienti per uniformare i condimenti.\nStendere su una teglia un foglio di alluminio sufficientemente capiente e adagiarvi sopra un foglio di carta da forno delle stesse dimensioni. Versare al centro tutto il contenuto della ciotola, compresi i succhi della marinatura, e sigillare ermeticamente i fogli formando un cartoccio ben chiuso per trattenere l'umidità e i profumi durante la cottura.\nTrasferire la teglia in forno statico preriscaldato a 170–180 °C e far cuocere il cartoccio per circa 50–60 minuti. Trascorso questo tempo, aprire delicatamente la parte superiore del cartoccio facendo attenzione al vapore accumulato, alzare la temperatura del forno a 200 °C e proseguire la cottura per ulteriori 10–15 minuti in modo da far dorare e rosolare leggermente la carne e le patate in superficie. Controllare la cottura "
   },
   {
     "Gruppo": "AB",
     "Nome": "Agnello con patate al cartoccio",
-    "Tempo": "95",
+    "Tempo": 95,
     "Difficolta": "",
-    "Ingredienti_Display": "300 gr di agnello (spalla o cosciotto a pezzi); 150 gr di patate bianche o gialle (1 patata grande); cipolla; 1 spicchio d'aglio; 1 cucchiaio di succo di limone; Olio extravergine d’oliva q; b; Origano secco q; b; 1 rametto di rosmarino; Sale marino integrale q; b; Carta da forno e foglio d'alluminio (per la chiusura a cartoccio)",
+    "Ingredienti_Display": "300 gr di agnello (spalla o cosciotto a pezzi); 150 gr di patate bianche o gialle (1 patata grande);  cipolla; 1 spicchio d'aglio; 1 cucchiaio di succo di limone; Olio extravergine d’oliva q.b.\nOrigano secco q.b. 1 rametto di rosmarino; Sale marino integrale q.b. Carta da forno e foglio d'alluminio (per la chiusura a cartoccio)",
     "Ingredienti_Matching": "Agnello, Patate",
     "Preparazione": "Disporre i pezzi di agnello all'interno di una ciotola capiente e condirli con un filo d'olio extravergine d'oliva, il succo di limone, lo spicchio d'aglio schiacciato, una generosa spolverata di origano e un pizzico di sale marino integrale, massaggiando accuratamente la carne con le mani per distribuire bene la marinatura.\nMentre la carne insaporisce, pelare le patate, tagliarla a tocchetti di medie dimensioni e lasciarla in ammollo in acqua fredda; pelare la cipolla e ridurla a fette spesse di circa due centimetri.\nScolare e asciugare i pezzi di patata, quindi unirli alla ciotola con l'agnello insieme alla cipolla affettata e al rametto di rosmarino. Aggiungere un ulteriore giro d'olio e mescolare con cura tutti gli ingredienti per uniformare i condimenti.\nStendere su una teglia un foglio di alluminio sufficientemente capiente e adagiarvi sopra un foglio di carta da forno delle stesse dimensioni. Versare al centro tutto il contenuto della ciotola, compresi i succhi della marinatura, e sigillare ermeticamente i fogli formando un cartoccio ben chiuso per trattenere l'umidità e i profumi durante la cottura.\nTrasferire la teglia in forno statico preriscaldato a 170–180 °C e far cuocere il cartoccio per circa 50–60 minuti. Trascorso questo tempo, aprire delicatamente la parte superiore del cartoccio facendo attenzione al vapore accumulato, alzare la temperatura del forno a 200 °C e proseguire la cottura per ulteriori 10–15 minuti in modo da far dorare e rosolare leggermente la carne e le patate in superficie. Controllare la cottura "
   },
