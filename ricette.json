@@ -1,70 +1,20 @@
-import 'dart:convert';
-import 'dart:io';
-import 'package:flutter/foundation.dart';
-import 'package:path_provider/path_provider.dart';
-
-class NutrizionistaInfo {
-  final String nome;
-  final List<String> titoli;
-  final List<String> servizi;
-  final String whatsapp;
-  final String whatsappMessaggio;
-  final String email;
-  final String emailOggetto;
-
-  NutrizionistaInfo({
-    required this.nome,
-    required this.titoli,
-    required this.servizi,
-    required this.whatsapp,
-    required this.whatsappMessaggio,
-    required this.email,
-    required this.emailOggetto,
-  });
-
-  factory NutrizionistaInfo.fromJson(Map<String, dynamic> j) => NutrizionistaInfo(
-        nome: (j['nome'] as String?) ?? '',
-        titoli: (j['titoli'] as List?)?.map((e) => e.toString()).toList() ?? const [],
-        servizi: (j['servizi'] as List?)?.map((e) => e.toString()).toList() ?? const [],
-        whatsapp: (j['whatsapp'] as String?) ?? '',
-        whatsappMessaggio: (j['whatsapp_messaggio'] as String?) ?? '',
-        email: (j['email'] as String?) ?? '',
-        emailOggetto: (j['email_oggetto'] as String?) ?? '',
-      );
-
-  static NutrizionistaInfo fallback() => NutrizionistaInfo(
-        nome: 'Giovanna Paoletta',
-        titoli: const [
-          'Laureata in Chimica e Tecnologie Farmaceutiche',
-          'Master internazionale in nutrizione e dietetica applicata',
-          'Attestato di partecipazione al corso di nutrizione sportiva',
-          'Esperienza pluriennale nella nutrizione di adulti e bambini',
-        ],
-        servizi: const [
-          'Piano nutrizionale settimanale personalizzato',
-          'Piano nutrizionale per gruppo sanguigno',
-          'Elenco degli alimenti per gruppo sanguigno',
-        ],
-        whatsapp: '39XXXXXXXXXX',
-        whatsappMessaggio: 'Salve, la contatto dall\'app Diete Gruppo Sanguigno.',
-        email: 'paolettag@gmail.com',
-        emailOggetto: 'Richiesta consulenza',
-      );
-}
-
-Future<NutrizionistaInfo> caricaNutrizionista() async {
-  try {
-    final appDir = await getApplicationDocumentsDirectory();
-    // 👇 PERCORSO CORRETTO: dentro diet_data/
-    final file = File('${appDir.path}/diet_data/nutrizionista.json');
-    if (await file.exists()) {
-      final json = jsonDecode(await file.readAsString());
-      debugPrint('✅ Nutrizionista caricato da file locale');
-      return NutrizionistaInfo.fromJson(json);
-    }
-    debugPrint('⚠️ File nutrizionista.json non ancora scaricato, uso fallback');
-  } catch (e) {
-    debugPrint('⚠️ Errore lettura nutrizionista.json: $e');
-  }
-  return NutrizionistaInfo.fallback();
+{
+  "versione": 1,
+  "aggiornamento": "2026-09-30",
+  "nome": "Giovanna Paoletta",
+  "titoli": [
+    "Laureata in Chimica e Tecnologie Farmaceutiche",
+    "Master internazionale in nutrizione e dietetica applicata",
+    "Attestato di partecipazione al corso di nutrizione sportiva",
+    "Esperienza pluriennale nella nutrizione di adulti e bambini"
+  ],
+  "servizi": [
+    "Piano nutrizionale settimanale personalizzato",
+    "Piano nutrizionale per gruppo sanguigno",
+    "Elenco degli alimenti per gruppo sanguigno"
+  ],
+  "whatsapp": "39XXXXXXXXXX",
+  "whatsapp_messaggio": "Gentile Dott.ssa Paoletta, la contatto dall'app 'Diete Gruppo Sanguigno' per richiedere una consulenza nutrizionale.",
+  "email": "paolettag@gmail.com",
+  "email_oggetto": "Richiesta consulenza - App Diete Gruppo Sanguigno"
 }
